@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>exp1.3_Harsh Shetye_60009210068</title>
+    <style>
+      .center {
+          margin: auto;
+          width: 54%;
+      }
+      .row{
+          display: flex;
+          justify-content: space-between;
+      }
+      .row2{
+        display: flex;
+        flex-direction:column;
+      }
+      .row input{
+        margin-bottom:3px;
+        margin-top:3px;
+      }
+      .vertical {
+            border-left: 2.5px solid rgb(214, 214, 214);
+            height: 490px;
+            position:absolute;
+            left: 50%;
+        }
+  </style>
+  </head>
+  <body>
+    <h1 align="center" margin="20px">VIP Registration</h1>
+      <div align="center"></div>
+      <div class="center">
+        <!-- Left Div -->
+        <div style="margin-left: 100px; float: left">
+          <div class="row" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem">Prefix</label>
+            <input type="text" />
+          </div>
+
+          <div class="row" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem">Name</label>
+            <input  type="text" placeholder="FirstName" style="width: 7em" />
+            <input type="text" placeholder="LastName" style="width: 7em" />
+          </div>
+
+          <div class="row" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem">Preferred Pronouns</label>
+            <input type="text" style="width: 7em" />
+          </div>
+
+          <div class="row" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem">Email</label>
+            <input type="email" placeholder="xyz@email.com" />
+          </div>
+
+          <div class="row" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem">Work Phone</label>
+            <input type="text" />
+          </div>
+
+          <div class="row" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem">Cell Phone</label>
+            <input type="text" />
+          </div>
+
+          <div class="row" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem">Job Title</label>
+            <input type="text" />
+          </div>
+
+          <div class="row" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem">Company</label>
+            <input type="text" />
+          </div>
+          <div style="padding-bottom: 1em"></div>
+
+          <div class="row2" style="text-align:left;" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem"
+              >Flight Arrival Time (to be picked up)</label
+            >
+            <br />
+            <input type="text" style="width: 19em" />
+          </div>
+          <div style="padding-bottom: 1em"></div>
+
+          <div class="row2" style="text-align:left;" style="padding-bottom: 1em">
+            <label style="padding-right: 0.8rem"
+              >Flight Departure Time (to be picked up)</label
+            >
+            <br />
+            <input type="text" style="width: 19em" />
+          </div>
+        </div>
+        <div class = "vertical"></div>
+
+        <!-- Right Div -->
+        <div style="margin-left: 100px; float: left">
+          <div class="row2" style="padding-bottom: 1.2em">
+            <label style="padding-right: 0.8rem"
+              >Where do you want to be picked up?</label
+            >
+            <br />
+            <input type="text" style="width: 19em" />
+          </div>
+
+          <div class="row2" style="padding-bottom: 1.2em; padding-top: 1.2rem">
+            <label style="padding-right: 0.8rem"
+              >Where do you want to be dropped off?</label
+            >
+            <br />
+            <input type="text" style="width: 19em" />
+          </div>
+
+          <div class="row2" style="padding-bottom: 3em; padding-top: 1rem">
+            <label style="padding-right: 0.8rem"
+              >Will your spouse attend? Leave name<br>and contact info if so</label
+            >
+            <br />
+            <input type="text" style="width: 19em" />
+          </div>
+
+          <div class="row2" style="text-align:left;" style="padding-bottom: 2em; padding-top: 2rem">
+            <label style="padding-right: 0.8rem"
+              >Are you intrerested in attending the VIP<br>networking event?</label
+            >
+            <br />
+            <div style="text-align:center;" style="display: flex">
+              <input type="radio" name="fav_language" value="Yes" />
+              <label for="html" style="padding-right: 15%">Yes</label>
+              <input type="radio" name="fav_language" value="No" />
+              <label for="html">No</label>
+            </div>
+          </div>
+          <div  style="padding-bottom: 1em; padding-top: 1rem"></div>
+
+          <div class="row2" style="text-align:left;" style="padding-bottom: 1em; padding-top: 1rem">
+            <label style="padding-right: 0.8rem"
+              >Would you like to be sent gifts?</label
+            >
+            <br />
+            <div style="text-align:center;" style="display: flex">
+              <input type="radio" name="fav_language" value="Yes" />
+              <label for="html" style="padding-right: 15%">Yes</label>
+              <input type="radio" name="fav_language" value="No" />
+              <label for="html">No</label>
+            </div>
+          </div>
+        </div>
+      </div> 
+  </body>
+</html>
