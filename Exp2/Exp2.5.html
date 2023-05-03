@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Admission Form</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: "Open Sans", sans-serif;
+      }
+      .card {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      .card-header {
+        background-color: #534caf;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .card-body {
+        padding: 20px;
+      }
+      .form-control:focus {
+        border-color: #534caf;
+        box-shadow: none;
+      }
+      .btn {
+        background-color: #534caf;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all 0.2s;
+      }
+      .btn:hover {
+        background-color: #534caf;
+        color: #fff;
+      }
+      @media (min-width: 768px) {
+        .card {
+          max-width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">Admission Form</div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                placeholder="Enter your phone number"
+              />
+            </div>
+            <div class="form-group">
+              <label for="program">Program</label>
+              <select class="form-control" id="program">
+                <option value="">-- Select a program --</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="phd">PhD Program</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div align="center" class="footer-row">
+        <p>© 2023 Harsh Shetye_60009210068</p>
+        <ul class="socials"></ul>
+      </div>
+    </footer>
+  </body>
+</html>
